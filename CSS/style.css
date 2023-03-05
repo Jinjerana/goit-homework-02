@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto'; sans-serif;
+    color:#434455;
+}
+
+:root {
+    --title-color:#2E2F42;
+    --text-light-color:#FFFFFF;
+    --logofootertext-color:#E7E9FC;
+    --buttonlink-color:#4D5AE5;
+    --buttonfilterhover-color:#404BBF;
+    --buttonfilterbg-color:#F4F4FD;
+}
+
+.logo {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+}
+
+.menu {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.address {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.address:hover {
+    color:  var(--buttonlink-color);
+}
+
+.address:focus {
+    color:  var(--buttonlink-color);
+}
+
+.hero {
+    background-color: var(--title-color);
+}
+
+.heroslogan {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--text-light-color);
+}
+
+.herobutton {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--text-light-color);
+background-color: var(--buttonlink-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+}
+
+.herobutton:hover {
+    color: var(--buttonlink-color);
+background-color: var(--text-light-color);
+}
+
+.herobutton:focus {
+    olor: var(--buttonlink-color);
+background-color: var(--text-light-color);
+}
+
+.abouttitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.abouttext {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.doing,.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-color);
+}
+
+.teammember {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.teammemberprof {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--title-color);
+}
+
+.logofootertext {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--logofootertext-color);
+}
+
+.buttonfilter {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--buttonlink-color);
+background-color: var(--buttonfilterbg-color);
+cursor:pointer;
+}
+
+.buttonfilter:hover {
+color: var(--text-light-color);
+background-color: var(--buttonfilterhover-color);
+}
+
+.buttonfilter:focus {
+color: var(--text-light-color);
+background-color: var(--buttonfilterhover-color);
+}
+
+.cardtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.cardtext {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
