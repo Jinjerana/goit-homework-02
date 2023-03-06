@@ -87,8 +87,10 @@ body {
 .herobutton {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  align-items: center;
   color: var(--text-light-color);
   background-color: var(--buttonlink-color);
   box-shadow: 0px 4px 4px var(--herobuttoncolor);
@@ -161,10 +163,12 @@ body {
 .buttonfilter {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
   color: var(--buttonlink-color);
   background-color: var(--buttonfilterbg-color);
   cursor: pointer;
