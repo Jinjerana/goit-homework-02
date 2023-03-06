@@ -1,5 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   color: #434455;
 }
 
@@ -13,6 +15,7 @@ body {
   --buttonfilterhover-color: #404bbf;
   --buttonfilterbg-color: #f4f4fd;
   --linkcolor: #434455;
+  --herobuttoncolor: rgba(0, 0, 0, 0.15);
 }
 
 .list {
@@ -39,8 +42,6 @@ body {
 
 .menu {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
@@ -58,9 +59,6 @@ body {
 }
 
 .address {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--linkcolor);
 }
@@ -89,13 +87,11 @@ body {
 .herobutton {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--text-light-color);
   background-color: var(--buttonlink-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px var(--herobuttoncolor);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -119,14 +115,10 @@ body {
 }
 
 .abouttext {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.doing,
-.team {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -146,9 +138,6 @@ body {
 }
 
 .teammemberprof {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -163,19 +152,15 @@ body {
 }
 
 .logofootertext {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: var(--buttonlink-color);
+  color: var(--logofootertext-color);
 }
 
 .buttonfilter {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
@@ -204,9 +189,6 @@ body {
 }
 
 .cardtext {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--linkcolor);
 }
