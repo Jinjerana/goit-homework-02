@@ -99,13 +99,13 @@ body {
 }
 
 .herobutton:hover {
-  color: var(--buttonlink-color);
-  background-color: var(--text-light-color);
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
 }
 
 .herobutton:focus {
-  color: var(--buttonlink-color);
-  background-color: var(--text-light-color);
+  color: var(--text-light-color);
+  background-color: var(--buttonfilterhover-color);
 }
 
 .abouttitle {
